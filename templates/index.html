@@ -1,0 +1,64 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Add Google Fonts Link for Lilita One -->
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <!-- Apply the 'Lilita One' font to the logo -->
+                <h2 class="logo" style="font-family: 'Lilita One', sans-serif;">TASTEMATE</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div> 
+
+        <div class="content">
+            <h1><span>TasteMate:</span></h1>
+            <h2 style="line-height: 1.6;">AI-Driven Recipes for Every Diet</h2>
+            <p><span style="font-family: 'Courier New', monospace;font-size: 23px;">An AI-powered platform that recommends personalized recipes<br> based on user preferences, ingredients, and health goals.</p>
+    
+
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <div class="text-center">
+                <button class="btnn"><a href="details.html">Login</a></button>
+                </div>
+
+                <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
